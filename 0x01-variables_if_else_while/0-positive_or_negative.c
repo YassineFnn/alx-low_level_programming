@@ -4,8 +4,8 @@
 
 int main(void)
 {
-  /*int n;
-srand(time(NULL));
+  int n;
+  /*srand(time(NULL));
 n = rand() % RAND_MAX - RAND_MAX / 2;
   */
 if(n < 0)
