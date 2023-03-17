@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/**                                                                                                                                                           
- *main - Entry point of the program 
- *                                 
+/**
+ *main - Entry point of the program
+ *
  *Description: prints the alphabet
- *                               
+ *
  *Return: always 0
  */
 
@@ -19,7 +19,6 @@ for (i = 65; i < 65 + 26; ++i)
 {
 putchar(i);
 }
- 
 putchar('\n');
 return (0);
 }
