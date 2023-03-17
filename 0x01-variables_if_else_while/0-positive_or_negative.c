@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int n)
+int main()
 {
 if(n < 0)
   printf("%d is negative\n", n);
