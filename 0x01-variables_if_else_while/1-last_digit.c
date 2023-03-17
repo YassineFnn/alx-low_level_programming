@@ -12,10 +12,10 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 printf("Last digit of %d ", n);
 if (n % 10 > 5)
-printf("and is greater than 5\n");
+printf("is %d and is greater than 5\n", n%10);
 else if (n % 10 < 6)
-printf("and is less than 6 and not 0");
+printf("is %d and is less than 6 and not 0", n%10);
 else
-printf("and is 0");
+printf("is 0 and is 0");
 return (0);
 }
