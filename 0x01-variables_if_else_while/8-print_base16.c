@@ -20,5 +20,6 @@ putchar(i + 87);
 else
 putchar(i + '0');
 }
+putchar('\n');
 return (0);
 }
