@@ -15,6 +15,6 @@ for(i = 97; i < 97 + 26; ++i)
 {
 putchar(i);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
