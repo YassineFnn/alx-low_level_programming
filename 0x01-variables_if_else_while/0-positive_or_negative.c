@@ -3,10 +3,13 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
-/*
- *
+/**
  *main - Entry point of the program
- */
+ *
+ *Description: output of a sequence
+ *
+ *Return: always 0
+*/
 int main(void)
 {
 	int n;
