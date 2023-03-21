@@ -1,33 +1,18 @@
 #include "main.h"
-
 /**
- * main - Entry point
- *
- * Description: writing _putchar
- *
- * Return: Always 0 (Success)
+ * main - prints _putchar, fllowd by a new linees
+ * Return: Alwys 0 (Success)
  */
 int main(void)
 {
-char c[] = "_putchar\n";
-int i;
-for (i = 0; c[i] != '\0'; i++)
-{
-putch(c[i]);
-}
-return (0);
-}
+	char abe[] = "_putchar";
 
-/**
- * putch - writes the character c to stdout
- *
- * Description: The character c to write int stdout
- * @c: the character to be printed
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-int putch(char c)
-{
-return (write(1, &c, 1));
+	int c;
+
+	for (c = 0; c < 8; c++)
+	{
+		_putchar(abe[c]);
+	}
+	_putchar('\n');
+	return (0);
 }
