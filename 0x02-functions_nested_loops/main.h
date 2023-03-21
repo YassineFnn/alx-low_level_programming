@@ -3,6 +3,6 @@
 
 #include <unistd.h>
 
-int putch(char c);
+int _putchar(char c);
 
 #endif /* MAIN_H */
