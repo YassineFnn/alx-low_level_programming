@@ -12,10 +12,10 @@ void print_alphabet(void)
 
 	while (alp <= 'z')
 	{
-		_putchar (alp);
+		putch (alp);
 		alp++;
 
 	}
-	_putchar ('\n');
+	putch ('\n');
 
 }
