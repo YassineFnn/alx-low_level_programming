@@ -1,30 +1,30 @@
-#ifndef MAIN_H
-#define MAIN_H
+#include "main.h"
 
-int _putchar(char c);
-
-#endif /* MAIN_H */
-#include <stdio.h>
-
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-char c = '_'
-write (1, &c, 1);
-c = 'p';
-write(1, &c, 1);
-c = 'u';
-write(1, &c, 1);
-c = 't';
-write(1, &c, 1);
-c = 'c';
-write(1, &c, 1);
-c = 'h';
-write(1, &c, 1);
-c = 'a';
-write(1, &c, 1);
-c = 'r';
-write(1, &c, 1);
-c = '\n';
-write(1, &c, 1);
+char c[] = "_putchar\n";
+int i;
+for (i = 0; c[i] != '\0'; i++)
+{
+_putchar(c[i]);
+}
 return (0);
+}
+
+/**
+ * _putchar - writes the character c to stdout
+ *
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+return (write(1, &c, 1));
 }
