@@ -18,6 +18,10 @@ print_alphabet();
 return (0);
 }
 
+int putch(char c)
+{
+    return (write(1, &c, 1));
+}
 
 /**
  * print_alphabet - prints the alphabet in lowercase, followed by a new line
