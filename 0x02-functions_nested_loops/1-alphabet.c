@@ -1,5 +1,5 @@
 #include "main.h"
-/**
+11;rgb:0000/0000/0000/**
  * main - Entry level of the program
  *
  * Description: prints the alphabet
@@ -20,7 +20,7 @@ return (0);
 
 int putch(char c)
 {
-    return (write(1, &c, 1));
+return (write(1, &c, 1));
 }
 
 /**
