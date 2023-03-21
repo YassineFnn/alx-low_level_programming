@@ -8,17 +8,17 @@
  * Return: always 0
  */
 
-/**                                                                                                                                                           
- * print_alphabet - prints the alphabet in lowercase, followed by a new line                                                                                  
+/**
+ * print_alphabet - prints the alphabet in lowercase, followed by a new line
  */
 void print_alphabet(void)
 {
 char c;
 for (c = 'a'; c <= 'z'; c++)
 {
-_putchar(c);
+putch(c);
 }
-_putchar('\n');
+putch('\n');
 }
 
 int main(void)
