@@ -1,37 +1,21 @@
 #include "main.h"
+
 /**
- * main - Entry level of the program
+ * print_alphabet - check the code for ALX School students.
  *
- * Description: prints the alphabet
- *
- * Return: always 0
+ * Return: Always 0.
  */
 
-/**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line
- */
-void print_alphabet(void);
-
-int main(void)
-{
-print_alphabet();
-return (0);
-}
-
-int putch(char c)
-{
-return (write(1, &c, 1));
-}
-
-/**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line
- */
 void print_alphabet(void)
 {
-char c;
-for (c = 'a'; c <= 'z'; c++)
-{
-putch(c);
-}
-putch('\n');
+	char alp = 'a';
+
+	while (alp <= 'z')
+	{
+		_putchar (alp);
+		alp++;
+
+	}
+	_putchar ('\n');
+
 }
