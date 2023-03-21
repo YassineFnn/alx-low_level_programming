@@ -19,7 +19,7 @@ return (0);
 }
 
 /**
- * _putchar - writes the character c to stdout
+ * putch - writes the character c to stdout
  *
  * Description: The character to print
  *
