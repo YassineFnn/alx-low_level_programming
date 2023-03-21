@@ -11,7 +11,7 @@ char c[] = "_putchar\n";
 int i;
 for (i = 0; c[i] != '\0'; i++)
 {
-_putchar(c[i]);
+putch(c[i]);
 }
 return (0);
 }
@@ -24,7 +24,7 @@ return (0);
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-int _putchar(char c)
+int putch(char c)
 {
 return (write(1, &c, 1));
 }
