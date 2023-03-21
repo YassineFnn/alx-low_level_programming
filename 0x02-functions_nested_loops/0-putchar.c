@@ -22,6 +22,7 @@ return (0);
  * putch - writes the character c to stdout
  *
  * Description: The character c to write int stdout
+ * @c: the character to be printed
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
